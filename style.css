@@ -1,0 +1,76 @@
+/*
+Table of contents
+------------------
+1. Nav/Header
+2. Body/Main
+*/
+
+/*---------------------------Nav/Header------------------------------------*/
+
+/*
+-Creates a black nav bar with blue borders that extends the full page width
+-Font size changed to 25 pixels and text within content box aligned to center
+*/
+
+nav {
+	font-size: 25px;
+	text-align: center;
+	background-color: black;
+	width: 100.5%;
+	height: 60px;
+	position: relative;
+	right: 7.7px;
+	bottom: 8px;
+	border: solid blue;
+}
+/*
+-Creates anchor element links within nav bar that have a blue background color and border
+-Padding added to content box and text decoration changed from the default(underline) to none.
+*/
+
+nav a {
+	position: relative;
+	background-color: blue;
+	border: solid blue;
+	top: 16px;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+/*Initial anchor element link color will be white when link has not been visited*/
+
+a:link {
+	color: white;
+}
+/*Anchor element link color will continue to stay white if link has been visited(clicked on)*/
+
+a:visited {
+	color: white;
+}
+/*Changes anchor element link content box background color to white, font color to blue and border to blue when mouse hovers over content box/link.*/
+
+a:hover {
+	background-color: white;
+	color: blue;
+	border: solid blue;
+}
+/*---------------------------Nav/Header-----------------------------------*/
+
+/*--------------------------Body/Main--------------------------------------*/
+
+/*Changes all h1 elements nested within div elements to have a background/border color of blue and a font color of white*/
+
+div h1 {
+	border: solid blue;
+	background-color: blue;
+	color: white;
+	margin: 10px 23px;
+}
+/*Changes the background color of certain content boxes to black*/
+
+.button-black {
+	background-color: black;
+}
+/*--------------------------Body/Main-------------------------------------*/
+
+/*CSS code minified/compressed to optimize webpage speed by reducing file size*/
+/*nav{font-size:25px;text-align:center;background-color:black;width:100.5%;height:60px;position:relative;right:7.7px;bottom:8px;border:solid blue}nav a{position:relative;background-color:blue;border:solid blue;top:16px;padding:14px 20px;text-decoration:none}a:link{color:white}a:visited{color:white}a:hover{background-color:white;color:blue;border:solid blue}div h1{border:solid blue;background-color:blue;color:white;margin:10px 23px}.button-black{background-color:black}*/
